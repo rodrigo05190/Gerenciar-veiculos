@@ -17,6 +17,10 @@ export const create = async (req: Request, res: Response) => {
   const vehicleExistsPlaca = await vehicleRepository.findOnePlaca(placa);
   if (vehicleExistsPlaca) throw new BadRequestError('placa already exists');
 
+  if ((userId && companyId) || (!userId && !companyId)) {
+    throw new BadRequestError('You must provide either userId or companyId, but not both.');
+  }
+
   if(userId){
     const user = await userRepository.getById(userId);
     if (!user) throw new NotFoundError('user does not exist');
