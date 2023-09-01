@@ -23,12 +23,12 @@ http://localhost:3333/api-docs/
 A estrutura do projeto é organizada da seguinte forma:
 
 src\
-controllers: Contém os controladores da API para veículos, usuários e empresas.
-database: Inclui configurações e scripts de migração do banco de dados.
-helpers: Contém funções e utilitários auxiliares para o projeto.
-middlewares: Aqui estão os middlewares utilizados na aplicação.
-repositories: Contém os repositórios que interagem com o banco de dados.
-routes: Define as rotas da API para veículos, usuários e empresas.
+controllers: Contém os controladores da API para veículos, usuários e empresas.\
+database: Inclui configurações e scripts de migração do banco de dados.\
+helpers: Contém funções e utilitários auxiliares para o projeto.\
+middlewares: Aqui estão os middlewares utilizados na aplicação.\
+repositories: Contém os repositórios que interagem com o banco de dados.\
+routes: Define as rotas da API para veículos, usuários e empresas.\
 
 Endpoints
 Abaixo estão os endpoints disponíveis na API:
