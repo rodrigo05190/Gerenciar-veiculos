@@ -1,10 +1,9 @@
 import * as nodemailer from 'nodemailer';
 import dotenv from 'dotenv';
-import { SendEmail } from '../Interfaces/email.interface';
 dotenv.config();
 import path from 'path';
 import * as ejs from 'ejs';
-const sendEmail = async (send: SendEmail) => {
+const sendEmail = async (send: any) => {
   const transporter = nodemailer.createTransport({
     host: process.env.MAIL_HOST as string,
     port: process.env.MAIL_PORT as unknown as number,

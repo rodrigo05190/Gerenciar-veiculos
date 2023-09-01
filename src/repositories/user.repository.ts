@@ -187,8 +187,7 @@ export const removeById = async (id: number) => {
         id: id,
       },
     });
-
-    console.log('User deleted successfully.');
+    
   } catch (error) {
     console.error('Error deleting user:', error);
   } finally {

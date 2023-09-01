@@ -17,7 +17,7 @@ export const authMiddleware = async (
   res: Response,
   next: NextFunction
 ) => {
-  console.log(req.path);
+  
   const excludedPaths = ['/user/login', '/user/register','/api-docs/'];
   if (excludedPaths.includes(req.path)) {
     return next();
