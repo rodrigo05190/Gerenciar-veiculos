@@ -22,7 +22,7 @@ http://localhost:3333/api-docs/
 ## Estrutura do Projeto
 A estrutura do projeto é organizada da seguinte forma:
 
-src
+src\
 controllers: Contém os controladores da API para veículos, usuários e empresas.
 database: Inclui configurações e scripts de migração do banco de dados.
 helpers: Contém funções e utilitários auxiliares para o projeto.
