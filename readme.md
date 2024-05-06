@@ -1,4 +1,4 @@
-# Teste backend node
+# Backend node
 
 Este é um projeto para gerenciar veículos, usuários e empresas.
 
